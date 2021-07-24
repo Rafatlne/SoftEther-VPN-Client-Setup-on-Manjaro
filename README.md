@@ -150,3 +150,13 @@ Example: sudo ip route del 123.45.67.789/32
 ```
 sudo ip route add default via 192.168.0.1
 ```
+- Restart your network manager
+```
+sudo systemctl restart NetworkManager
+```
+
+## Useful Links
+- [Installation guide of softether vpn client on linux](https://anuradha-15.medium.com/installation-guide-of-softether-vpn-client-on-linux-54a405a0ae2c)
+- [SoftEther-VPN-Client-Setup-on-Linux](https://github.com/bgilmer77/SoftEther-VPN-Client-Setup-on-Linux)
+- [How to Set up SoftEther VPN Client on Linux](https://www.cactusvpn.com/tutorials/how-to-set-up-softether-vpn-client-on-linux/)
+- [VPN Client Management Command Reference](https://www.softether.org/4-docs/1-manual/6._Command_Line_Management_Utility_Manual/6.5_VPN_Client_Management_Command_Reference)
